@@ -16,7 +16,7 @@ try:
         exit
     
     if (first == 0 or second == 0 or third == 0):
-        print("Error: if two numbers are equals, the third number can't be zero!")
+        print("Error: if two numbers are equal, the other one can't be zero!")
         raise Exception
 
     if (first is second and not first is third):
